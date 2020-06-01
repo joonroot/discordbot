@@ -5,7 +5,6 @@ from discord.utils import get
 
 app = discord.Client()
 
-token = "NzA3NTc3OTM2MTY0NjgzODI3.XtROXg.xQXRk8GSsaq1qPhd-SKycnTTqLo"
 calcResult = 0
 
 @app.event
