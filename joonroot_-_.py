@@ -1,3 +1,4 @@
+import os
 import asyncio
 import discord
 from discord.utils import get
@@ -56,5 +57,6 @@ async def on_message(message):
     if message.content.startswith("!규칙"):
         await message.author.send('안녕')
 
-
-app.run(')
+        
+access_token = os.environ["BOT_TOKEN"]
+app.run(access_token)
