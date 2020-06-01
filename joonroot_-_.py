@@ -57,5 +57,5 @@ async def on_message(message):
         await message.author.send('안녕')
 
         
-access_token = os.environ["BOT_TOKEN"]
+access_token = os.environ[BOT_TOKEN]
 app.run(acces_token)
